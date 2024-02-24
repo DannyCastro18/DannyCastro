@@ -1,0 +1,64 @@
+p {
+    text-align: center;
+    color: white;
+}
+header {
+    margin: 10px;
+    display: flex;
+    background-color: rgb(244, 123, 208);
+    height: 50px;
+    justify-content: center;
+}
+
+nav {
+    margin: 10px;
+    display: flex;
+    background-color: rgb(225, 225, 69);
+    height: 50px;
+    justify-content: center;
+}
+main {
+    display: flex;
+}
+
+article {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(95, 230, 230);
+    width: 50vi;
+    border-radius: 8px;
+}
+
+article p {
+    width: 100%;
+}
+
+article section {
+    background-color: rgb(65, 222, 94);
+    justify-content: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+article section img {
+    width: 100%;
+}
+
+aside {
+    margin: 100px;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(176, 82, 31);
+    width: 50vi;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+footer {
+    margin: 10px;
+    display: flex;
+    background-color: rgb(135, 48, 197);
+    height: 50px;
+    justify-content: center;
+}

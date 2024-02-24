@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./formulario.css">
+</head>
+<body>
+    <h1 class="titulo">Formulario HTML</h1>
+    <main class="main">
+       <form action="registro.php">  <!-- donde se enviara -->
+            <label for="nombre">Ingresa tu Nombre</label>
+            <input id="nombre" class="input" type="text" placeholder="Escribe tu nombre, no vayas a escribir tu apodo 😒">
+            <label for="apellido">Ingresa tu Apellido</label>
+            <input id="apellido" class="input" type="text" placeholder="Ejem: Castro">
+            <label for="correo Electrónico">Ingresa tu Correo Electrónico</label><br>
+            <input id= "correo Electrónico" class="input" type="email" placeholder="ejem: danicastro.nz@gmail.com">
+            <label for="pass">Ingresa tu Contraseña</label>
+            <input id="pass" class= "input" type="password" name="password" >
+            <label for="edad">Ingresa tu edad</label>
+            <input id="edad" class="input" type="number">
+            <br>
+            <fieldset>
+                <legend>Seleccione su genero</legend>
+                    <input type="radio" id="femenino" name="genero" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                    <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="otro" name="genero" value="otro">
+                    <label for="otro">LGBTIQ+</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Seleccione su País</legend>
+                <select name="pais" id="pais">
+                    <option value="colombia">Colombia</option>
+                    <option value="corea">Corea</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="mexico">Mexico</option>
+                </select>
+            </fieldset>
+            <hr>
+            <label for="file">Selecciona tu archivo</label>
+            <input id="file" name="file" type="file" value="file"><br>
+            <hr>
+            <label for="date">Selecciona la Fecha</label><br>
+            <input  value="date" id="date" name="date" type="date">
+            <br><br>
+            <input class="input"type="button" value="Enviar">
+            <button class="input" type="button">Eliminar</button>
+        </form>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+th,td{
+    border: 2px solid violet;
+    border-radius: 4px;
+}
+td,th{
+   text-align: center;
+}

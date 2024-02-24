@@ -1,0 +1,81 @@
+.navbar{
+    display: grid;
+    grid-template-areas: "menu logo Wikipedia Wikipedia barra barra barra barra otros";
+    background-color: rgb(223, 218, 218);
+    height: 50px;
+    align-items: center;
+}
+.menu {
+    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.otros{
+    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    padding: 10px;
+    grid-gap: 20px;
+}
+.p1{
+    display: grid;
+    grid-area: p1;
+    display: flex;
+    /* grid-template-areas: "Port Port Port ai"; */
+    grid-gap: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: black; 
+    border-bottom-style: solid;
+
+}
+.p2{
+    display: grid;
+    grid-area: p2;
+    display: flex;
+    /* grid-template-areas: "art disc disc disc her"; */
+    grid-gap: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: black; 
+    border-bottom-style: solid;
+
+}
+.p3{
+    display: grid;
+    grid-area: p3;
+    display: flex;
+    grid-gap: 20px;
+}
+aside{
+    display: grid;
+    grid-gap: 30px;
+}
+.sub1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.cate{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+.pie{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-top: 1px solid black;
+}
+.inf{
+    height: 30px;
+}
